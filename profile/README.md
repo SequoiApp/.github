@@ -2,7 +2,7 @@
 
 **SequoiApp** est une plateforme open-source qui centralise les outils Sequoia pour la cartographie et la gestion forestière.
 
-Elle regroupe deux projets complémentaires : **Rsequoia2** et **Qsequoia2**.
+Elle regroupe trois projets complémentaires : **Rsequoia2**, **Wsequoia2** et **Qsequoia2**.
 
 ## 🌲 Kesako ?
 
@@ -12,7 +12,9 @@ Sequoia, c’est avant tout **une boîte à outils pensée par des forestiers po
 
 Elle combine :
 
--   Des scripts R (via `Rsequoia2`) pour automatiser les traitements de données SIG,
+-   Des scripts R (via `Rsequoia2`) pour automatiser les traitements de données SIG ;
+
+-   Une appli web (via `Wsequoia2`) pour utiliser `Rsequoia2` depuis une appli web ;
 
 -   QGIS (via `Qsequoia2`) pour visualiser et produire des cartes professionnelles.
 
@@ -28,7 +30,11 @@ Un package R orienté traitement et analyse de données forestières.
 
 -   Gestion de bases de données forestières.
 
-**Qsequoia2**
+### Wsequoia2
+
+Une aplication web pour facioliter l'utilsation de Rsequoia2
+
+### Qsequoia2 ###
 
 Un plugin QGIS qui complète Rsequoia2 avec des fonctionnalités SIG avancées.
 
